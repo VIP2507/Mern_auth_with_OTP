@@ -18,28 +18,22 @@ const Footer = () => {
           <h3>Follow Me</h3>
           <div className="social-icons">
             <Link
-              to="https://facebook.com/profile.php?id=100030535123397&mibextid=9R9pXO"
+              to="https://www.facebook.com/prince.chauhan.0601"
               target="_blank"
               className="social-link"
             >
               <img src={fb} alt="Facebook" />
             </Link>
+            
             <Link
-              to="https://www.youtube.com/channel/UCbGtkGZ9sDg54PtU3GEDE6w"
-              target="_blank"
-              className="social-link"
-            >
-              <img src={yt} alt="Twitter" />
-            </Link>
-            <Link
-              to="https://www.linkedin.com/in/muhammad-zeeshan-khan-dev/"
+              to="https://www.linkedin.com/in/vipulsinh-chauhan-201469373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               className="social-link"
             >
               <img src={linkedin} alt="LinkedIn" />
             </Link>
             <Link
-              to="https://github.com/Zeeshu911"
+              to="https://github.com/VIP2507"
               target="_blank"
               className="social-link"
             >
@@ -50,7 +44,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>&copy; 2024 MERN Authentication. All Rights Reserved.</p>
-        <p>Designed by CodeWithZeeshu</p>
+        <p>Designed by VIPChaunan</p>
       </div>
     </footer>
   );
