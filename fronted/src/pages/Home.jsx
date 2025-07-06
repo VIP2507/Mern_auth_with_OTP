@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-import Hero from "../components/Hero";
-import Instructor from "../components/Instructor";
+import Hero from "../components/Hero"
 import Technologies from "../components/Technologies";
 import "../styles/Home.css";
 import { toast } from "react-toastify";
@@ -36,7 +35,6 @@ const Home = () => {
     <>
       <section className="home">
         <Hero />
-        <Instructor />
         <Technologies />
         <Footer />
         <button onClick={logout}>Logout</button>
